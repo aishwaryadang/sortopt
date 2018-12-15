@@ -16,7 +16,8 @@ Of these 8, we chose to use O0,O1,O2,O3,Os and Ofast. Later, we would go on to a
 ![Optimization Effects](/images/9.jpg)
 
 We also found this table to be very helpul while understanding the flags associated with optimizations.
-![Optimizations and Flags](/images/8.png)
+
+![Optimizations and Flags](/images/8.jpg)
 (https://www.linuxjournal.com/article/7269).
 
 A code can be optimized in two ways: Write a code which is pre-optimized or let the compiler do it for you. Humans aren’t very good at solving/computing complex and sequential data. There a million ways to write a piece of code, and as you go into low level languages, the more sequential it becomes and the harder and longer the code becomes. In this day and age of such huge codebases and Big Data applications, with an exabyte of data being produced every day around the world, we need to focus on making applications which can focus on cleaning and processing these huge dumps of data. Leave the optimizing to the compilers. A compiler when given a code and a directive on how to optimize the code, uses several different techniques to achieve this. For example, in the GCC, O1 applies 30 optimizations to the given code. This makes the work of the programmer much easier and the code much efficient. 
